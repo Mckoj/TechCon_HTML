@@ -1,13 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechCon HomePage</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechCon 2024 - Homepage</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background: #003366;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #00509e;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 20px;
+      max-width: 800px;
+      margin: 20px auto;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    section {
+      margin-bottom: 20px;
+    }
+    footer {
+      background: #003366;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+    }
+    video {
+      max-width: 100%;
+      display: block;
+      margin: 20px auto;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        
-    </header>
+  <!-- Header -->
+  <header>
+    <h1>TechCon 2024</h1>
+    <p>The Future of Innovation Awaits</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="about.html">About</a></li>
+      <li><a href="schedule.html">Schedule</a></li>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Section -->
+  <main>
+    <section>
+      <h2>Welcome to TechCon 2024</h2>
+      <p>TechCon 2024 brings together innovators, tech enthusiasts, and industry leaders from around the globe to explore the latest advancements in technology. Join us for inspiring talks, hands-on workshops, and networking opportunities.</p>
+      <video controls>
+        <source src="promo.mp4" type="video/mp4">
+        <track src="subtitles.vtt" kind="subtitles" srclang="en" label="English">
+        Your browser does not support the video tag. Watch the <a href="promo.mp4">video</a>.
+      </video>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 TechCon. All rights reserved. | <a href="https://techcon2024.com" target="_blank" style="color: #fff;">Visit TechCon</a></p>
+  </footer>
 </body>
 </html>
